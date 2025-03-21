@@ -38,7 +38,7 @@ document.getElementById("searchButton").addEventListener("click", () => {
     if (query) {
         console.log(`Searching for: ${query}`);
         // Example: Redirect to a search results page or filter content dynamically
-        window.location.href = `/reel-genius/pages/search.html?q=${encodeURIComponent(query)}`;
+        window.location.href = `/reel-genius/search.html?q=${encodeURIComponent(query)}`;
     } else {
         alert("Please enter a search term.");
     }
