@@ -43,3 +43,5 @@ document.getElementById("searchButton").addEventListener("click", () => {
         alert("Please enter a search term.");
     }
 });
+
+/* Test */
