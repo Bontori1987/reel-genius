@@ -1,9 +1,17 @@
-.videos-grid {
-    margin-top: 120px;
-}
-
 * {
     box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #F6F1DE;
+}
+
+.nav-item {
+    width: 105px;
+}
+
+body {
+    background-color: #3E3F5B;
 }
 
 .logo {
@@ -27,38 +35,8 @@
     cursor: pointer;
 }
 
-.imageBox {
-    position: relative;
-    width: 100%; /* Ensure it fits the card */
-    height: 200px; /* Adjust based on your design */
-    overflow: hidden; /* Prevents images from overflowing */
-}
-
-.imageBox .imageInn img {
+.full-width-container {
     width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensures the image fills the container without stretching */
-    display: block;
+    margin: 0;
+    padding: 0;
 }
-
-.imageBox .hoverImg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.3s ease-in-out; /* Smooth fade effect */
-}
-
-.imageBox .hoverImg img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensures hover image fills the box properly */
-    display: block;
-}
-
-.imageBox:hover .hoverImg {
-    opacity: 1; /* Show hover image */
-}
- 

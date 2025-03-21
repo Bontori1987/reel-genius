@@ -21,34 +21,39 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/d717a59f45.js" crossorigin="anonymous"></script>
 
-    <!-- Custom Scripts -->
+    <!-- JavaScripts -->
     <script src="/project.js" defer></script>
+    <script src="about.js" defer></script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Bytesized&family=Limelight&family=Megrim&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Bytesized&family=Limelight&family=Megrim&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-xxl navbar-light bg-light fixed-top py-0">
-            <div class="d-flex align-items-center w-100">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-0" style="background-color: #F6F1DE;">
+            <div class="d-flex align-items-center w-100" style="padding: 5px">
                 <button class="navbar-toggler mr-2 ml-2" type="button" data-toggle="collapse"
                     data-target="#navbarTogglerDemo03">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <a class="navbar-brand" href="/index.html">
-                    <img src="/logo-removebg.png" class="logo">
+                    <img src="/logo-removebg.png" class="logo"> Reel Genius 
                 </a>
 
                 <!-- Searching contents -->
                 <div class="search">
                     <form class="form-inline">
                         <div class="input-group">
-                            <input type="search" placeholder="Search..." class="form-control">
+                            <input type="search" placeholder="Search..." class="form-control" size="40">
                             <div class="input-group-append">
                                 <span class="input-group-text" id="searchIcon">
                                     <i class="fa-solid fa-magnifying-glass text-success"></i>
@@ -86,31 +91,35 @@
         </nav>
     </div>
 
-    <!-- <div class="stars"></div> -->
-
     <div class="container bigContainer mt-5 pt-5">
         <div class="row">
-            <div class="form-group col-lg-6 col-12 order-md-2 order-2">
-                <!-- <h2 class="introduceContainer fixContainer test-blk">
-                    Get To Know More About Us
-                </h2>
-                <p class="descriptionContainer fixContainer test-blk">
-                    Reel Genius is a project that our team have dedicated our best efforts to it!
-                </p> -->
+            <section class="form-group col-lg-6 col-12 order-md-2 order-2 text-container"> 
+                <div class="reveal"> 
+                    <h1> 
+                        We <br> Are <br> Reel Genius
+                    </h1>
+                </div>
+            </section>
 
-                <h1> 
-                    We Are Reel Genius
-                </h1>
+            <section class="col-lg-6 col-12 order-md-1 order-1"> 
+                <div class="reveal">
+                    <img src="/aboutCrop.png" class="img-fluid img-container">
+                </div>
+            </section>
 
-                <p> Dương Hoài Nam - 523C0019 </p>
-                <p> Hứa Thục Nhi - 523C0021 </p>
-                <p> Nguyễn Xuân Trân Trân - 523C0025 </p>
-            </div>
+            <section class="col-lg-6 col-12 order-md-2 order-2 text-container"> 
+               <div class="reveal">
+                    <p> Dương Hoài Nam - 523C0019 </p>
+               </div>
 
-            <div class="col-lg-6 col-12 order-md-1 order-1 OneImgOneImg">
-                <img src="/aboutUs.png" class="img-fluid">
-                <!-- <img loading="lazy" src="random.jpg" class="img-fluid">  -->
-            </div>
+               <div class="reveal"> 
+                    <p> Hứa Thục Nhi - 523C0021 </p>
+               </div>
+               
+               <div class="reveal"> 
+                    <p> Nguyễn Xuân Trân Trân - 523C0025 </p>
+               </div>
+            </section>
         </div>
     </div>
 </body>

@@ -1,5 +1,5 @@
 * {
-    /* font-family: Nunito, sans-serif; */
+    box-sizing: border-box;
 }
 
 body {
@@ -7,19 +7,21 @@ body {
     background-attachment: fixed;
     color: white;
     padding-top: 20px;
+    min-height: 100vh;
 }
 
 h1 {
-    font-family: 'Megrim', system-ui;
-    font-weight: 400;
+    /* font-family: "Megrim", system-ui; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
     font-style: normal;
     text-shadow: 
     2px 2px 10px rgba(255, 255, 255, 0.3),
     0px 0px 20px rgba(255, 255, 255, 0.5),
-    /* 0px 0px 40px rgba(255, 255, 255, 0.2) */
+    0px 0px 40px rgba(255, 255, 255, 0.2)
 }
  
-.text-blk {
+/* .text-blk {
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
@@ -42,10 +44,11 @@ h1 {
     margin-right: 0px;
     margin-bottom: 40px;
     margin-left: 0px;
-}
+} */
 
 .bigContainer{
     text-align: center;
+    min-height: 100vh;
 }
 
 .fixContainer {
@@ -56,22 +59,37 @@ h1 {
     margin: 0 0 0 0;
 }
 
-.OneImg {
-    margin-top: 39%;
-    margin-right: 80%;
-    margin-bottom: 29%;
-    margin-left: 0px;
-    height: 32%;
-    width: 20%;
-    position: absolute;
+.img-container {
+    padding: 0;
+    overflow: hidden;
 }
 
-.TwoImg{
-    margin-top: 19%;
-    margin-right: 42%;
-    margin-bottom: 42%;
-    margin-left: 23%;
-    width: 35%;
-    height: 39%;
-    position: absolute;
+.img-container img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 20px;
+}
+
+.text-container h1{
+    font-size: 4.1em;
+    line-height: 1.2;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
 }
