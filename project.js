@@ -32,3 +32,14 @@ const handleLocation = async () => {
 
 window.onpopstate = handleLocation;
 window.route = route;
+
+document.getElementById("searchButton").addEventListener("click", () => {
+    const query = document.getElementById("searchInput").value.trim().toLowerCase();
+    if (query) {
+        console.log(`Searching for: ${query}`);
+        // Example: Redirect to a search results page or filter content dynamically
+        window.location.href = `/reel-genius/pages/search.html?q=${encodeURIComponent(query)}`;
+    } else {
+        alert("Please enter a search term.");
+    }
+});
