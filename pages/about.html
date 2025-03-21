@@ -1,6 +1,118 @@
-<div> 
-    <h1> 
-        About Us
-    </h1>
-    <hr />
-</div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Reel Genius</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- jQuery, Popper.js, and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom Stylesheet -->
+     <link rel="stylesheet" href="/project.css">
+    <link rel="stylesheet" href="about.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/d717a59f45.js" crossorigin="anonymous"></script>
+
+    <!-- Custom Scripts -->
+    <script src="/project.js" defer></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Bytesized&family=Limelight&family=Megrim&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-xxl navbar-light bg-light fixed-top py-0">
+            <div class="d-flex align-items-center w-100">
+                <button class="navbar-toggler mr-2 ml-2" type="button" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo03">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <a class="navbar-brand" href="/index.html">
+                    <img src="/logo-removebg.png" class="logo">
+                </a>
+
+                <!-- Searching contents -->
+                <div class="search">
+                    <form class="form-inline">
+                        <div class="input-group">
+                            <input type="search" placeholder="Search..." class="form-control">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="searchIcon">
+                                    <i class="fa-solid fa-magnifying-glass text-success"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Navbar Menu -->
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html"><i class="fa-solid fa-house"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="videos.html"><i class="fa-solid fa-video"></i> Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="images.html"><i class="fa-solid fa-image"></i> Images</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-heart"></i> Liked</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-clock-rotate-left"></i> History</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html"><i class="fa-solid fa-address-card"></i> About Us <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- <div class="stars"></div> -->
+
+    <div class="container bigContainer mt-5 pt-5">
+        <div class="row">
+            <div class="form-group col-lg-6 col-12 order-md-2 order-2">
+                <!-- <h2 class="introduceContainer fixContainer test-blk">
+                    Get To Know More About Us
+                </h2>
+                <p class="descriptionContainer fixContainer test-blk">
+                    Reel Genius is a project that our team have dedicated our best efforts to it!
+                </p> -->
+
+                <h1> 
+                    We Are Reel Genius
+                </h1>
+
+                <p> Dương Hoài Nam - 523C0019 </p>
+                <p> Hứa Thục Nhi - 523C0021 </p>
+                <p> Nguyễn Xuân Trân Trân - 523C0025 </p>
+            </div>
+
+            <div class="col-lg-6 col-12 order-md-1 order-1 OneImgOneImg">
+                <img src="/aboutUs.png" class="img-fluid">
+                <!-- <img loading="lazy" src="random.jpg" class="img-fluid">  -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

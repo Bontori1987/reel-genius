@@ -1,16 +1,17 @@
 const route = (event) => {
+
     event = event || window.event;
+    event.preventDefault();
     console.log("Routing to:", event.target.href);
     window.history.pushState({}, "", event.target.href);
     handleLocation();
 };
 
 const routes = {
-    // "/reel-genius/about.html": "/reel-genius/about.html",
-    // "/reel-genius/images.html": "/reel-genius/images.html",
-     "/reel-genius/pages/about.html": "/reel-genius/pages/about.html",
-     "/reel-genius/pages/images.html": "/reel-genius/pages/images.html",
-    "/reel-genius/pages/videos.html": "/reel-genius/pages/videos.html",
+    "/":"/index.html",
+    "pages/videos.html": "/pages/videos.html",
+    "pages/images.html": "/pages/images.html",
+    "pages/about.html": "/pages/about.html",
 };
 
 const handleLocation = async () => {

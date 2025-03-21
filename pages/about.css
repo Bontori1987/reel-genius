@@ -1,0 +1,77 @@
+* {
+    /* font-family: Nunito, sans-serif; */
+}
+
+body {
+    background: radial-gradient(circle at center, #31265f, #2b5693, #0f3484, #000);
+    background-attachment: fixed;
+    color: white;
+    padding-top: 20px;
+}
+
+h1 {
+    font-family: 'Megrim', system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 
+    2px 2px 10px rgba(255, 255, 255, 0.3),
+    0px 0px 20px rgba(255, 255, 255, 0.5),
+    /* 0px 0px 40px rgba(255, 255, 255, 0.2) */
+}
+ 
+.text-blk {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    line-height: 20px;
+    color: white;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+}
+
+.text-blk h2{
+    font-size: 40px;
+    line-height: 64px;
+    font-weight: 900;
+    color: #00B2EB;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+}
+
+.bigContainer{
+    text-align: center;
+}
+
+.fixContainer {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin: 0 0 0 0;
+}
+
+.OneImg {
+    margin-top: 39%;
+    margin-right: 80%;
+    margin-bottom: 29%;
+    margin-left: 0px;
+    height: 32%;
+    width: 20%;
+    position: absolute;
+}
+
+.TwoImg{
+    margin-top: 19%;
+    margin-right: 42%;
+    margin-bottom: 42%;
+    margin-left: 23%;
+    width: 35%;
+    height: 39%;
+    position: absolute;
+}
