@@ -8,6 +8,7 @@ const route = (event) => {
 const routes = {
     "/reel-genius/about.html": "/reel-genius/about.html",
     "/reel-genius/images.html": "/reel-genius/images.html",
+    "/reel-genius/pages/videos.html": "/reel-genius/pages/videos.html",
 };
 
 const handleLocation = async () => {
