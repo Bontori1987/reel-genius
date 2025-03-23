@@ -34,6 +34,8 @@ const handleLocation = async () => {
 window.onpopstate = handleLocation;
 window.route = route;
 
+
+//Search Functionality
 document.getElementById("searchButton").addEventListener("click", () => {
     const query = document.getElementById("searchInput").value.trim().toLowerCase();
     if (query) {
