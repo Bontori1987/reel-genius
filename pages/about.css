@@ -12,10 +12,10 @@ h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 5rem;
-    text-shadow: 
-    2px 2px 10px rgba(255, 255, 255, 0.3),
-    0px 0px 20px rgba(255, 255, 255, 0.5),
-    0px 0px 40px rgba(255, 255, 255, 0.2);
+    text-shadow:
+        2px 2px 10px rgba(255, 255, 255, 0.3),
+        0px 0px 20px rgba(255, 255, 255, 0.5),
+        0px 0px 40px rgba(255, 255, 255, 0.2);
     line-height: 1.2;
     color: white;
 }
@@ -25,13 +25,13 @@ h1 {
     font-weight: 100;
     color: white;
     font-style: normal;
-    text-shadow: 
-    2px 2px 10px rgba(255, 255, 255, 0.3),
-    0px 0px 20px rgba(255, 255, 255, 0.5),
-    0px 0px 40px rgba(255, 255, 255, 0.2);
+    text-shadow:
+        2px 2px 10px rgba(255, 255, 255, 0.3),
+        0px 0px 20px rgba(255, 255, 255, 0.5),
+        0px 0px 40px rgba(255, 255, 255, 0.2);
 }
 
-.main-container{
+.main-container {
     margin: 2rem;
     padding-top: 5rem;
     justify-content: center;
@@ -55,7 +55,7 @@ h1 {
     padding: 20px;
 }
 
-/* .reveal {
+.reveal {
     position: relative;
     transform: translateY(150px);
     opacity: 0;
@@ -64,7 +64,7 @@ h1 {
 .reveal.active {
     transform: translateY(0px);
     opacity: 1;
-} */
+}
 
 h2 {
     font-family: "Poppins", sans-serif;
@@ -73,13 +73,13 @@ h2 {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
-    text-shadow: 
-    2px 2px 10px rgba(255, 255, 255, 0.3),
-    0px 0px 20px rgb(7, 166, 220),
-    0px 0px 40px rgba(221, 221, 221, 0.2);
+    text-shadow:
+        2px 2px 10px rgba(255, 255, 255, 0.3),
+        0px 0px 20px rgb(7, 166, 220),
+        0px 0px 40px rgba(221, 221, 221, 0.2);
 }
 
-section .row{
+section .row {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -88,29 +88,33 @@ section .row{
 }
 
 .row .card {
-    /* background-color: #FDFAF6; */
     background: rgba(0, 0, 0, 0.179);
     color: white;
     font-family: "Noto Sans", sans-serif;
     border-radius: 50px;
     padding: 10px;
     text-align: center;
-    width: 300px;
+    width: 320px;
+    align-items: center;
 }
 
 .memInfor {
-    margin: 5px auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 10px;
-    /* border: 1px solid red; */
+}
+
+.memInfor h5 {
+    font-size: 1em;
 }
 
 .card-body {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    flex-grow: 1;
 }
 
-section .card .image img{
+section .card .image img {
     width: 140px;
     height: 140px;
     object-fit: cover;
