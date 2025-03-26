@@ -10,6 +10,7 @@ The Github Repository for this project can be found [here](https://github.com/Bo
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Testing](#testing)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -43,6 +44,19 @@ To set up the project on your local machine, follow these steps:
 ## Usage
 
 The website allows users to view images and play videos directly from the repository. Simply open the `index.html` file in your web browser to start viewing the images and videos we have prepared.
+
+## Testing
+
+To test the project and ensure that everything is working correctly, follow these steps:
+
+1. **Verify File Paths:**
+   Ensure that all paths in the source files are updated to match your local file paths.
+
+2. **Test Image and Video Playback:**
+   Open the `index.html` file in your web browser and verify that the images and videos load and play correctly.
+
+3. **Check Browser Compatibility:**
+   Test the website on different web browsers (e.g., Chrome, Firefox, Safari) to ensure compatibility.
 
 ## Contributing
 
