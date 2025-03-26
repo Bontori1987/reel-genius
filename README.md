@@ -1,6 +1,7 @@
 # Reel Genius
 
 Reel Genius is a website that provides image and video player functionality. This is a school project where all media files are stored directly in the GitHub repository.
+The project is currently live at [Reel Genius](https://bontori1987.github.io/reel-genius/).
 
 ## Table of Contents
 - [Installation](#installation)
