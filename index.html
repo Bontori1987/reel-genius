@@ -71,15 +71,7 @@
                     <li class="nav-item">
                          <a class="nav-link" href="pages/images.html"><i class="fa-solid fa-image"></i> Images <span class="sr-only">(current)</span></a>
                     </li>
-
-<!--                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa-solid fa-heart"></i> Liked</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa-solid fa-clock-rotate-left"></i> History</a>
-                    </li> -->
-
+                    
                     <li class="nav-item">
                         <!-- <a class="nav-link" href="/reel-genius/about" onclick="route(event)"><i class="fa-solid fa-address-card"></i> About Us</a> -->
                         <a class="nav-link" href="pages/about.html"><i class="fa-solid fa-address-card"></i> About us<span class="sr-only">(current)</span></a>
@@ -101,16 +93,24 @@
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
                     </ol>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner skeleton">
                         <div class="carousel-item active">
-                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/carousel_img/banner1.jpg?raw=true" class="d-block w-100" alt="Slide 1">
+                            <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/carousel_img/banner1.jpg?raw=true" class="d-block w-100" alt="Slide 1" style="opacity: 0; height: 0;">
                         </div>
                         <div class="carousel-item">
-                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/carousel_img/banner2.jpg?raw=true" class="d-block w-100" alt="Slide 2">
+                            <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/carousel_img/banner2.jpg?raw=true" class="d-block w-100" alt="Slide 2" style="opacity: 0; height: 0;">
                         </div>
                         <div class="carousel-item">
-                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/carousel_img/banner3.jpg?raw=true" class="d-block w-100" alt="Slide 3">
+                            <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/carousel_img/carousel_img%20(2).jpg?raw=true" class="d-block w-100" alt="Slide 3" style="opacity: 0; height: 0;">
+                        </div>
+                        <div class="carousel-item">
+                            <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/carousel_img/carousel_img%20(3).jpg?raw=true" class="d-block w-100" alt="Slide 4" style="opacity: 0; height: 0;">
+                        </div>
+                        <div class="carousel-item">
+                            <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/carousel_img/carousel_img%20(4).jpg?raw=true" class="d-block w-100" alt="Slide 5" style="opacity: 0; height: 0;">
                         </div>
                     </div>
                 </div>
@@ -118,498 +118,555 @@
         
             <!-- Card Section -->
             <div class="col-md-10 col-lg-10">
-                <div class="row card-wrapper">
-                    <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-                        <div class="card h-100">
-                            <div class="imageBox">
-                                <div class="imageInn" style="border-radius: 6px;">
-                                    <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/latenight_thumbnail.jpg?raw=true" alt="Default Image">
+                <div class="row row-items">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <a href="#">
+                            <div class="card h-100">
+                                <div class="imageBox card-image skeleton">
+                                    <div class="imageInn" style="border-radius: 6px;">
+                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/latenight_thumbnail.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
+                                    </div>
+                                    <div class="hoverImg" style="border-radius: 6px;">
+                                        <picture>
+                                            <!-- WebP version (if supported) -->
+                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/latenight_hoverImg.webp" type="image/webp">
+                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
+                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/latenight_thumbnail.jpg?raw=true" type="image/jpg">
+                                            <!-- Fallback <img> for older browsers (backup)-->
+                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/latenight_thumbnail.jpg?raw=true" alt="Hover Image">
+                                        </picture>
+                                    </div>
                                 </div>
-                                <div class="hoverImg" style="border-radius: 6px;">
-                                    <picture>
-                                        <!-- WebP version (if supported) -->
-                                        <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/latenight_hoverImg.webp" type="image/webp">
-                                        <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                        <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/latenight_thumbnail.jpg?raw=true" type="image/jpg">
-                                        <!-- Fallback <img> for older browsers (backup)-->
-                                        <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/latenight_thumbnail.jpg?raw=true" alt="Hover Image">
-                                    </picture>
-<!-- =======
-                            <div class="imageBox card-img-top">
-                                <div class="imageInn">
-                                  <img src="/reel-genius/thumbnail/USpresident_thumbnail.jpg" class="size" alt="Default Image">
-                                </div>
-                                <div class="hoverImg">
-                                  <img src="/reel-genius/hover_img_videos/USpresident_hoverImg.webp" alt="Profile Image">
->>>>>>> a36e8cfd6add6561f0b7d3aadfe19b9a31a343ff -->
+                                <div class="card-body">
+                                    <h6 class="card-title text-white skeleton">Late nights: Bad for health? BBC News Review</h6>
+                                    <p class="card-description text-white-50 skeleton">Sep 21, 2022</p>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h6 class="card-title">Late nights: Bad for health? BBC News Review</h6>
-                                <p class="date">Sep 21, 20225</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-                        <div class="card h-100">
-                            <div class="imageBox">
-                                <div class="imageInn" style="border-radius: 6px;">
-                                    <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/positive_thumbnail.jpg?raw=true" alt="Default Image">
+                        <a href="#">
+                            <div class="card h-100">
+                                <div class="imageBox card-image skeleton">
+                                    <div class="imageInn" style="border-radius: 6px;">
+                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/positive_thumbnail.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
+                                    </div>
+                                    <div class="hoverImg" style="border-radius: 6px;">
+                                        <picture>
+                                            <!-- WebP version (if supported) -->
+                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/positive_hoverImg.webp" type="image/webp">
+                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
+                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/positive_thumbnail.jpg?raw=true" type="image/jpg">
+                                            <!-- Fallback <img> for older browsers (backup)-->
+                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/positive_thumbnail.jpg?raw=true" alt="Hover Image">
+                                        </picture>
+                                    </div>
                                 </div>
-                                <div class="hoverImg" style="border-radius: 6px;">
-                                    <picture>
-                                        <!-- WebP version (if supported) -->
-                                        <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/latenight_hoverImg.webp" type="image/webp">
-                                        <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                        <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/positive_thumbnail.jpg?raw=true" type="image/jpg">
-                                        <!-- Fallback <img> for older browsers (backup)-->
-                                        <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/positive_thumbnail.jpg?raw=true" alt="Hover Image">
-                                    </picture>
+                                <div class="card-body">
+                                    <h6 class="card-title text-white skeleton">How to find hope - BBC Dars, BBC World Service</h6>
+                                    <p class="card-description text-white-50 skeleton">Feb 23, 2025</p>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h6 class="card-title">How to find hope - BBC Dars, BBC World Service</h6>
-                                <p class="date">Feb 23, 2025</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-                        <div class="card h-100">
-                            <div class="imageBox">
-                                <div class="imageInn" style="border-radius: 6px;">
-                                    <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/trump_thumbnail.jpg?raw=true" alt="Default Image">
+                        <a href="#">
+                            <div class="card h-100">
+                                <div class="imageBox card-image skeleton">
+                                    <div class="imageInn" style="border-radius: 6px;">
+                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/trump_thumbnail.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
+                                    </div>
+                                    <div class="hoverImg" style="border-radius: 6px;">
+                                        <picture>
+                                            <!-- WebP version (if supported) -->
+                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/trump_hoverImg.webp" type="image/webp">
+                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
+                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/trump_thumbnail.jpg?raw=true" type="image/jpg">
+                                            <!-- Fallback <img> for older browsers (backup)-->
+                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/trump_thumbnail.jpg?raw=true" alt="Hover Image">
+                                        </picture>
+                                    </div>
                                 </div>
-                                <div class="hoverImg" style="border-radius: 6px;">
-                                    <picture>
-                                        <!-- WebP version (if supported) -->
-                                        <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/latenight_hoverImg.webp" type="image/webp">
-                                        <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                        <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/trump_thumbnail.jpg?raw=true" type="image/jpg">
-                                        <!-- Fallback <img> for older browsers (backup)-->
-                                        <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/trump_thumbnail.jpg?raw=true" alt="Hover Image">
-                                    </picture>
+                                <div class="card-body">
+                                    <h6 class="card-title text-white skeleton">Trump's Trade War Created This Boomtown in Vietnam. Now Tariffs Could Topple It. | WSJ Center Point</h6>
+                                    <p class="card-description text-white-50 skeleton">Mar 13, 2025</p>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h6 class="card-title">How to find hope - BBC Dars, BBC World Service</h6>
-                                <p class="date">Feb 23, 2025</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-                        <div class="card h-100">
-                            <div class="imageBox">
-                                <div class="imageInn" style="border-radius: 6px;">
-                                    <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/conan_thumbnail.jpg?raw=true" alt="Default Image">
+                        <a href="#">
+                            <div class="card h-100">
+                                <div class="imageBox card-image skeleton">
+                                    <div class="imageInn" style="border-radius: 6px;">
+                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/conan_thumbnail.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
+                                    </div>
+                                    <div class="hoverImg" style="border-radius: 6px;">
+                                        <picture>
+                                            <!-- WebP version (if supported) -->
+                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/conan_hoverImg.webp" type="image/webp">
+                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
+                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/conan_thumbnail.jpg?raw=true" type="image/jpg">
+                                            <!-- Fallback <img> for older browsers (backup)-->
+                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/conan_thumbnail.jpg?raw=true" alt="Hover Image">
+                                        </picture>
+                                    </div>
                                 </div>
-                                <div class="hoverImg" style="border-radius: 6px;">
-                                    <picture>
-                                        <!-- WebP version (if supported) -->
-                                        <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/latenight_hoverImg.webp" type="image/webp">
-                                        <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                        <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/conan_thumbnail.jpg?raw=true" type="image/jpg">
-                                        <!-- Fallback <img> for older browsers (backup)-->
-                                        <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/conan_thumbnail.jpg?raw=true" alt="Hover Image">
-                                    </picture>
+                                <div class="card-body">
+                                    <h6 class="card-title text-white skeleton">Thám Tử Lừng Danh Conan - Tập 782 | Mô Hình Quá Hoàn Hảo | Bản Lồng Tiếng</h6>
+                                    <p class="card-description text-white-50 skeleton">Oct 3, 2024</p>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h6 class="card-title">How to find hope - BBC Dars, BBC World Service</h6>
-                                <p class="date">Feb 23, 2025</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-                        <div class="card h-100">
-                            <div class="imageBox">
-                                <div class="imageInn" style="border-radius: 6px;">
-                                    <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/greatestairplane_thumbnail.jpg?raw=true" alt="Default Image">
+                        <a href="#">
+                            <div class="card h-100">
+                                <div class="imageBox card-image skeleton">
+                                    <div class="imageInn" style="border-radius: 6px;">
+                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/greatestairplane_thumbnail.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
+                                    </div>
+                                    <div class="hoverImg" style="border-radius: 6px;">
+                                        <picture>
+                                            <!-- WebP version (if supported) -->
+                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/greatestairplane_hoverImg.webp" type="image/webp">
+                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
+                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/greatestairplane_thumbnail.jpg?raw=true" type="image/jpg">
+                                            <!-- Fallback <img> for older browsers (backup)-->
+                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/greatestairplane_thumbnail.jpg?raw=true" alt="Hover Image">
+                                        </picture>
+                                    </div>
                                 </div>
-                                <div class="hoverImg" style="border-radius: 6px;">
-                                    <picture>
-                                        <!-- WebP version (if supported) -->
-                                        <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/latenight_hoverImg.webp" type="image/webp">
-                                        <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                        <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/greatestairplane_thumbnail.jpg?raw=true" type="image/jpg">
-                                        <!-- Fallback <img> for older browsers (backup)-->
-                                        <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/greatestairplane_thumbnail.jpg?raw=true" alt="Hover Image">
-                                    </picture>
+                                <div class="card-body">
+                                    <h6 class="card-title text-white skeleton">ALL TIME GREATEST AIRPLANE SEAT - Emirates First Class Suite</h6>
+                                    <p class="card-description text-white-50 skeleton">Dec 12, 2017</p>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h6 class="card-title">How to find hope - BBC Dars, BBC World Service</h6>
-                                <p class="date">Feb 23, 2025</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-                        <div class="card h-100">
-                            <div class="imageBox">
-                                <div class="imageInn" style="border-radius: 6px;">
-                                    <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/largestcruise_thumbnail.jpg?raw=true" alt="Default Image">
+                        <a href="#">
+                            <div class="card h-100">
+                                <div class="imageBox card-image skeleton">
+                                    <div class="imageInn" style="border-radius: 6px;">
+                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/largestcruise_thumbnail.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
+                                    </div>
+                                    <div class="hoverImg" style="border-radius: 6px;">
+                                        <picture>
+                                            <!-- WebP version (if supported) -->
+                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/largestcruise_hoverImg.webp" type="image/webp">
+                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
+                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/largestcruise_thumbnail.jpg?raw=true" type="image/jpg">
+                                            <!-- Fallback <img> for older browsers (backup)-->
+                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/largestcruise_thumbnail.jpg?raw=true" alt="Hover Image">
+                                        </picture>
+                                    </div>
                                 </div>
-                                <div class="hoverImg" style="border-radius: 6px;">
-                                    <picture>
-                                        <!-- WebP version (if supported) -->
-                                        <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/latenight_hoverImg.webp" type="image/webp">
-                                        <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                        <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/largestcruise_thumbnail.jpg?raw=true" type="image/jpg">
-                                        <!-- Fallback <img> for older browsers (backup)-->
-                                        <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/largestcruise_thumbnail.jpg?raw=true" alt="Hover Image">
-                                    </picture>
+                                <div class="card-body">
+                                    <h6 class="card-title text-white skeleton">How The World's Largest Cruise Ship Makes 30,000 Meals Every Day</h6>
+                                    <p class="card-description text-white-50 skeleton">Jan 18, 2020</p>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h6 class="card-title">How to find hope - BBC Dars, BBC World Service</h6>
-                                <p class="date">Feb 23, 2025</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-                        <div class="card h-100">
-                            <div class="imageBox">
-                                <div class="imageInn" style="border-radius: 6px;">
-                                    <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/food_thumbnail.jpg?raw=true" alt="Default Image">
+                        <a href="#">
+                            <div class="card h-100">
+                                <div class="imageBox card-image skeleton">
+                                    <div class="imageInn" style="border-radius: 6px;">
+                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/food_thumbnail.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
+                                    </div>
+                                    <div class="hoverImg" style="border-radius: 6px;">
+                                        <picture>
+                                            <!-- WebP version (if supported) -->
+                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/food_hoverImg.webp" type="image/webp">
+                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
+                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/food_thumbnail.jpg?raw=true" type="image/jpg">
+                                            <!-- Fallback <img> for older browsers (backup)-->
+                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/food_thumbnail.jpg?raw=true" alt="Hover Image">
+                                        </picture>
+                                    </div>
                                 </div>
-                                <div class="hoverImg" style="border-radius: 6px;">
-                                    <picture>
-                                        <!-- WebP version (if supported) -->
-                                        <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/latenight_hoverImg.webp" type="image/webp">
-                                        <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                        <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/food_thumbnail.jpg?raw=true" type="image/jpg">
-                                        <!-- Fallback <img> for older browsers (backup)-->
-                                        <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/food_thumbnail.jpg?raw=true" alt="Hover Image">
-                                    </picture>
+                                <div class="card-body">
+                                    <h6 class="card-title text-white skeleton">$1 Street Food Around The World</h6>
+                                    <p class="card-description text-white-50 skeleton">Sep 14, 2018</p>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h6 class="card-title">How to find hope - BBC Dars, BBC World Service</h6>
-                                <p class="date">Feb 23, 2025</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-                        <div class="card h-100">
-                            <div class="imageBox">
-                                <div class="imageInn" style="border-radius: 6px;">
-                                    <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/taylorswift_thumbnail.jpg?raw=true" alt="Default Image">
+                        <a href="#">
+                            <div class="card h-100">
+                                <div class="imageBox card-image skeleton">
+                                    <div class="imageInn" style="border-radius: 6px;">
+                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/taylorswift_thumbnail.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
+                                    </div>
+                                    <div class="hoverImg" style="border-radius: 6px;">
+                                        <picture>
+                                            <!-- WebP version (if supported) -->
+                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/taylorswift_hoverImg.webp" type="image/webp">
+                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
+                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/taylorswift_thumbnail.jpg?raw=true" type="image/jpg">
+                                            <!-- Fallback <img> for older browsers (backup)-->
+                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/taylorswift_thumbnail.jpg?raw=true" alt="Hover Image">
+                                        </picture>
+                                    </div>
                                 </div>
-                                <div class="hoverImg" style="border-radius: 6px;">
-                                    <picture>
-                                        <!-- WebP version (if supported) -->
-                                        <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/latenight_hoverImg.webp" type="image/webp">
-                                        <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                        <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/taylorswift_thumbnail.jpg?raw=true" type="image/jpg">
-                                        <!-- Fallback <img> for older browsers (backup)-->
-                                        <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/taylorswift_thumbnail.jpg?raw=true" alt="Hover Image">
-                                    </picture>
+                                <div class="card-body">
+                                    <h6 class="card-title text-white skeleton">Taylor Swift Reacts to Embarrassing Footage of Herself After Laser Eye Surgery</h6>
+                                    <p class="card-description text-white-50 skeleton">Oct 4, 2019</p>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h6 class="card-title">How to find hope - BBC Dars, BBC World Service</h6>
-                                <p class="date">Feb 23, 2025</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-                        <div class="card h-100">
-                            <div class="imageBox">
-                                <div class="imageInn" style="border-radius: 6px;">
-                                    <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/namecountry_thumbnail.jpg?raw=true" alt="Default Image">
+                        <a href="#">
+                            <div class="card h-100">
+                                <div class="imageBox card-image skeleton">
+                                    <div class="imageInn" style="border-radius: 6px;">
+                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/namecountry_thumbnail.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
+                                    </div>
+                                    <div class="hoverImg" style="border-radius: 6px;">
+                                        <picture>
+                                            <!-- WebP version (if supported) -->
+                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/namecountry_hoverImg.webp" type="image/webp">
+                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
+                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/namecountry_thumbnail.jpg?raw=true" type="image/jpg">
+                                            <!-- Fallback <img> for older browsers (backup)-->
+                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/namecountry_thumbnail.jpg?raw=true" alt="Hover Image">
+                                        </picture>
+                                    </div>
                                 </div>
-                                <div class="hoverImg" style="border-radius: 6px;">
-                                    <picture>
-                                        <!-- WebP version (if supported) -->
-                                        <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/latenight_hoverImg.webp" type="image/webp">
-                                        <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                        <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/namecountry_thumbnail.jpg?raw=true" type="image/jpg">
-                                        <!-- Fallback <img> for older browsers (backup)-->
-                                        <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/namecountry_thumbnail.jpg?raw=true" alt="Hover Image">
-                                    </picture>
+                                <div class="card-body">
+                                    <h6 class="card-title text-white skeleton">Can You Name a Country?</h6>
+                                    <p class="card-description text-white-50 skeleton">Jul 13, 2018</p>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h6 class="card-title">Late nights: Bad for health? BBC News Review</h6>
-                                <p class="date">Sep 21, 20225</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-                        <div class="card h-100">
-                            <div class="imageBox">
-                                <div class="imageInn" style="border-radius: 6px;">
-                                    <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/guess_thumbnail.jpg?raw=true" alt="Default Image">
+                        <a href="#">
+                            <div class="card h-100">
+                                <div class="imageBox card-image skeleton">
+                                    <div class="imageInn" style="border-radius: 6px;">
+                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/guess_thumbnail.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
+                                    </div>
+                                    <div class="hoverImg" style="border-radius: 6px;">
+                                        <picture>
+                                            <!-- WebP version (if supported) -->
+                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/guess_hoverImg.webp" type="image/webp">
+                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
+                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/guess_thumbnail.jpg?raw=true" type="image/jpg">
+                                            <!-- Fallback <img> for older browsers (backup)-->
+                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/guess_thumbnail.jpg?raw=true" alt="Hover Image">
+                                        </picture>
+                                    </div>
                                 </div>
-                                <div class="hoverImg" style="border-radius: 6px;">
-                                    <picture>
-                                        <!-- WebP version (if supported) -->
-                                        <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/latenight_hoverImg.webp" type="image/webp">
-                                        <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                        <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/guess_thumbnail.jpg?raw=true" type="image/jpg">
-                                        <!-- Fallback <img> for older browsers (backup)-->
-                                        <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/guess_thumbnail.jpg?raw=true" alt="Hover Image">
-                                    </picture>
+                                <div class="card-body">
+                                    <h6 class="card-title text-white skeleton">GUESS THE LANGUAGE: EUROPE EDITION</h6>
+                                    <p class="card-description text-white-50 skeleton">Nov 8, 2023</p>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h6 class="card-title">Late nights: Bad for health? BBC News Review</h6>
-                                <p class="date">Sep 21, 20225</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-                        <div class="card h-100">
-                            <div class="imageBox">
-                                <div class="imageInn" style="border-radius: 6px;">
-                                    <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/rainbowbunny_thumbnail.jpg?raw=true" alt="Default Image">
+                        <a href="#">
+                            <div class="card h-100">
+                                <div class="imageBox card-image skeleton">
+                                    <div class="imageInn" style="border-radius: 6px;">
+                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/rainbowbunny_thumbnail.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
+                                    </div>
+                                    <div class="hoverImg" style="border-radius: 6px;">
+                                        <picture>
+                                            <!-- WebP version (if supported) -->
+                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/rainbowbunny_hoverImg.webp" type="image/webp">
+                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
+                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/rainbowbunny_thumbnail.jpg?raw=true" type="image/jpg">
+                                            <!-- Fallback <img> for older browsers (backup)-->
+                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/rainbowbunny_thumbnail.jpg?raw=true" alt="Hover Image">
+                                        </picture>
+                                    </div>
                                 </div>
-                                <div class="hoverImg" style="border-radius: 6px;">
-                                    <picture>
-                                        <!-- WebP version (if supported) -->
-                                        <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/latenight_hoverImg.webp" type="image/webp">
-                                        <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                        <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/rainbowbunny_thumbnail.jpg?raw=true" type="image/jpg">
-                                        <!-- Fallback <img> for older browsers (backup)-->
-                                        <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/rainbowbunny_thumbnail.jpg?raw=true" alt="Hover Image">
-                                    </picture>
+                                <div class="card-body">
+                                    <h6 class="card-title text-white skeleton">Rainbow Bunny And Sister Xo's New Lover</h6>
+                                    <p class="card-description text-white-50 skeleton">Nov 10, 2021</p>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h6 class="card-title">Late nights: Bad for health? BBC News Review</h6>
-                                <p class="date">Sep 21, 20225</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-                        <div class="card h-100">
-                            <div class="imageBox">
-                                <div class="imageInn" style="border-radius: 6px;">
-                                    <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/worldwar1_thumbnail.jpg?raw=true" alt="Default Image">
+                        <a href="#">
+                            <div class="card h-100">
+                                <div class="imageBox card-image skeleton">
+                                    <div class="imageInn" style="border-radius: 6px;">
+                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/worldwar1_thumbnail.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
+                                    </div>
+                                    <div class="hoverImg" style="border-radius: 6px;">
+                                        <picture>
+                                            <!-- WebP version (if supported) -->
+                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/worldwar1_hoverImg.webp" type="image/webp">
+                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
+                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/worldwar1_thumbnail.jpg?raw=true" type="image/jpg">
+                                            <!-- Fallback <img> for older browsers (backup)-->
+                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/worldwar1_thumbnail.jpg?raw=true" alt="Hover Image">
+                                        </picture>
+                                    </div>
                                 </div>
-                                <div class="hoverImg" style="border-radius: 6px;">
-                                    <picture>
-                                        <!-- WebP version (if supported) -->
-                                        <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/latenight_hoverImg.webp" type="image/webp">
-                                        <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                        <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/worldwar1_thumbnail.jpg?raw=true" type="image/jpg">
-                                        <!-- Fallback <img> for older browsers (backup)-->
-                                        <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/worldwar1_thumbnail.jpg?raw=true" alt="Hover Image">
-                                    </picture>
+                                <div class="card-body">
+                                    <h6 class="card-title text-white skeleton">World's War 1</h6>
+                                    <p class="card-description text-white-50 skeleton">Jan 20, 2022</p>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h6 class="card-title">Late nights: Bad for health? BBC News Review</h6>
-                                <p class="date">Sep 21, 20225</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-                        <div class="card h-100">
-                            <div class="imageBox">
-                                <div class="imageInn" style="border-radius: 6px;">
-                                    <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/USpresident_thumbnail.jpg?raw=true" alt="Default Image">
+                        <a href="#">
+                            <div class="card h-100">
+                                <div class="imageBox card-image skeleton">
+                                    <div class="imageInn" style="border-radius: 6px;">
+                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/USpresident_thumbnail.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
+                                    </div>
+                                    <div class="hoverImg" style="border-radius: 6px;">
+                                        <picture>
+                                            <!-- WebP version (if supported) -->
+                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/USpresident_hoverImg.webp" type="image/webp">
+                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
+                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/USpresident_thumbnail.jpg?raw=true" type="image/jpg">
+                                            <!-- Fallback <img> for older browsers (backup)-->
+                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/USpresident_thumbnail.jpg?raw=true" alt="Hover Image">
+                                        </picture>
+                                    </div>
                                 </div>
-                                <div class="hoverImg" style="border-radius: 6px;">
-                                    <picture>
-                                        <!-- WebP version (if supported) -->
-                                        <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/latenight_hoverImg.webp" type="image/webp">
-                                        <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                        <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/USpresident_thumbnail.jpg?raw=true" type="image/jpg">
-                                        <!-- Fallback <img> for older browsers (backup)-->
-                                        <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/USpresident_thumbnail.jpg?raw=true" alt="Hover Image">
-                                    </picture>
+                                <div class="card-body">
+                                    <h6 class="card-title text-white skeleton">How the US President Travels</h6>
+                                    <p class="card-description text-white-50 skeleton">Dec 6, 2023</p>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h6 class="card-title">Late nights: Bad for health? BBC News Review</h6>
-                                <p class="date">Sep 21, 20225</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-                        <div class="card h-100">
-                            <div class="imageBox">
-                                <div class="imageInn" style="border-radius: 6px;">
-                                    <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/kimjongun_thumbnail.jpg?raw=true" alt="Default Image">
+                        <a href="#">
+                            <div class="card h-100">
+                                <div class="imageBox card-image skeleton">
+                                    <div class="imageInn" style="border-radius: 6px;">
+                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/kimjongun_thumbnail.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
+                                    </div>
+                                    <div class="hoverImg" style="border-radius: 6px;">
+                                        <picture>
+                                            <!-- WebP version (if supported) -->
+                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/kimjongun_hoverImg.webp" type="image/webp">
+                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
+                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/kimjongun_thumbnail.jpg?raw=true" type="image/jpg">
+                                            <!-- Fallback <img> for older browsers (backup)-->
+                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/kimjongun_thumbnail.jpg?raw=true" alt="Hover Image">
+                                        </picture>
+                                    </div>
                                 </div>
-                                <div class="hoverImg" style="border-radius: 6px;">
-                                    <picture>
-                                        <!-- WebP version (if supported) -->
-                                        <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/latenight_hoverImg.webp" type="image/webp">
-                                        <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                        <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/kimjongun_thumbnail.jpg?raw=true" type="image/jpg">
-                                        <!-- Fallback <img> for older browsers (backup)-->
-                                        <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/kimjongun_thumbnail.jpg?raw=true" alt="Hover Image">
-                                    </picture>
+                                <div class="card-body">
+                                    <h6 class="card-title text-white skeleton">How Kim Jong Un Travels</h6>
+                                    <p class="card-description text-white-50 skeleton">Dec 29, 2023</p>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h6 class="card-title">Late nights: Bad for health? BBC News Review</h6>
-                                <p class="date">Sep 21, 20225</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-                        <div class="card h-100">
-                            <div class="imageBox">
-                                <div class="imageInn" style="border-radius: 6px;">
-                                    <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/streamingwar_thumbnail.jpg?raw=true" alt="Default Image">
+                        <a href="#">
+                            <div class="card h-100">
+                                <div class="imageBox card-image skeleton">
+                                    <div class="imageInn" style="border-radius: 6px;">
+                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/streamingwar_thumbnail.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
+                                    </div>
+                                    <div class="hoverImg" style="border-radius: 6px;">
+                                        <picture>
+                                            <!-- WebP version (if supported) -->
+                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/streamingwar_hoverImg.webp" type="image/webp">
+                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
+                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/streamingwar_thumbnail.jpg?raw=true" type="image/jpg">
+                                            <!-- Fallback <img> for older browsers (backup)-->
+                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/streamingwar_thumbnail.jpg?raw=true" alt="Hover Image">
+                                        </picture>
+                                    </div>
                                 </div>
-                                <div class="hoverImg" style="border-radius: 6px;">
-                                    <picture>
-                                        <!-- WebP version (if supported) -->
-                                        <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/latenight_hoverImg.webp" type="image/webp">
-                                        <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                        <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/streamingwar_thumbnail.jpg?raw=true" type="image/jpg">
-                                        <!-- Fallback <img> for older browsers (backup)-->
-                                        <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/streamingwar_thumbnail.jpg?raw=true" alt="Hover Image">
-                                    </picture>
+                                <div class="card-body">
+                                    <h6 class="card-title text-white skeleton">The Streaming Wars</h6>
+                                    <p class="card-description text-white-50 skeleton">Mar 20, 2025</p>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h6 class="card-title">Late nights: Bad for health? BBC News Review</h6>
-                                <p class="date">Sep 21, 20225</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-                        <div class="card h-100">
-                            <div class="imageBox">
-                                <div class="imageInn" style="border-radius: 6px;">
-                                    <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/nukes_thumbnail.jpg?raw=true" alt="Default Image">
+                        <a href="#">
+                            <div class="card h-100">
+                                <div class="imageBox card-image skeleton">
+                                    <div class="imageInn" style="border-radius: 6px;">
+                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/nukes_thumbnail.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
+                                    </div>
+                                    <div class="hoverImg" style="border-radius: 6px;">
+                                        <picture>
+                                            <!-- WebP version (if supported) -->
+                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/nukes_hoverImg.webp" type="image/webp">
+                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
+                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/nukes_thumbnail.jpg?raw=true" type="image/jpg">
+                                            <!-- Fallback <img> for older browsers (backup)-->
+                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/nukes_thumbnail.jpg?raw=true" alt="Hover Image">
+                                        </picture>
+                                    </div>
                                 </div>
-                                <div class="hoverImg" style="border-radius: 6px;">
-                                    <picture>
-                                        <!-- WebP version (if supported) -->
-                                        <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/latenight_hoverImg.webp" type="image/webp">
-                                        <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                        <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/nukes_thumbnail.jpg?raw=true" type="image/jpg">
-                                        <!-- Fallback <img> for older browsers (backup)-->
-                                        <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/nukes_thumbnail.jpg?raw=true" alt="Hover Image">
-                                    </picture>
+                                <div class="card-body">
+                                    <h6 class="card-title text-white skeleton">How Nukes Are Transported</h6>
+                                    <p class="card-description text-white-50 skeleton">Jan 21, 2024</p>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h6 class="card-title">Late nights: Bad for health? BBC News Review</h6>
-                                <p class="date">Sep 21, 20225</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-                        <div class="card h-100">
-                            <div class="imageBox">
-                                <div class="imageInn" style="border-radius: 6px;">
-                                    <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/trucks_thumbnail.jpg?raw=true" alt="Default Image">
+                        <a href="#">
+                            <div class="card h-100">
+                                <div class="imageBox card-image skeleton">
+                                    <div class="imageInn" style="border-radius: 6px;">
+                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/trucks_thumbnail.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
+                                    </div>
+                                    <div class="hoverImg" style="border-radius: 6px;">
+                                        <picture>
+                                            <!-- WebP version (if supported) -->
+                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/trucks_hoverImg.webp" type="image/webp">
+                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
+                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/trucks_thumbnail.jpg?raw=true" type="image/jpg">
+                                            <!-- Fallback <img> for older browsers (backup)-->
+                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/trucks_thumbnail.jpg?raw=true" alt="Hover Image">
+                                        </picture>
+                                    </div>
                                 </div>
-                                <div class="hoverImg" style="border-radius: 6px;">
-                                    <picture>
-                                        <!-- WebP version (if supported) -->
-                                        <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/latenight_hoverImg.webp" type="image/webp">
-                                        <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                        <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/trucks_thumbnail.jpg?raw=true" type="image/jpg">
-                                        <!-- Fallback <img> for older browsers (backup)-->
-                                        <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/trucks_thumbnail.jpg?raw=true" alt="Hover Image">
-                                    </picture>
+                                <div class="card-body">
+                                    <h6 class="card-title text-white skeleton">Why American and European Trucks Are So Different</h6>
+                                    <p class="card-description text-white-50 skeleton">Oct 29, 2022</p>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h6 class="card-title">Late nights: Bad for health? BBC News Review</h6>
-                                <p class="date">Sep 21, 20225</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-                        <div class="card h-100">
-                            <div class="imageBox">
-                                <div class="imageInn" style="border-radius: 6px;">
-                                    <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/rollsroyce_thumbnail.jpg?raw=true" alt="Default Image">
+                        <a href="#">
+                            <div class="card h-100">
+                                <div class="imageBox card-image skeleton">
+                                    <div class="imageInn" style="border-radius: 6px;">
+                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/rollsroyce_thumbnail.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
+                                    </div>
+                                    <div class="hoverImg" style="border-radius: 6px;">
+                                        <picture>
+                                            <!-- WebP version (if supported) -->
+                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/rollsroyce_hoverImg.webp" type="image/webp">
+                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
+                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/rollsroyce_thumbnail.jpg?raw=true" type="image/jpg">
+                                            <!-- Fallback <img> for older browsers (backup)-->
+                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/rollsroyce_thumbnail.jpg?raw=true" alt="Hover Image">
+                                        </picture>
+                                    </div>
                                 </div>
-                                <div class="hoverImg" style="border-radius: 6px;">
-                                    <picture>
-                                        <!-- WebP version (if supported) -->
-                                        <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/latenight_hoverImg.webp" type="image/webp">
-                                        <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                        <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/rollsroyce_thumbnail.jpg?raw=true" type="image/jpg">
-                                        <!-- Fallback <img> for older browsers (backup)-->
-                                        <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/rollsroyce_thumbnail.jpg?raw=true" alt="Hover Image">
-                                    </picture>
+                                <div class="card-body">
+                                    <h6 class="card-title text-white skeleton">Why Rolls-Royce Cars Are So Expensive | So Expensive</h6>
+                                    <p class="card-description text-white-50 skeleton">Apr 25, 2020</p>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h6 class="card-title">Late nights: Bad for health? BBC News Review</h6>
-                                <p class="date">Sep 21, 20225</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-                        <div class="card h-100">
-                            <div class="imageBox">
-                                <div class="imageInn" style="border-radius: 6px;">
-                                    <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/singapore_thumbnail.jpg?raw=true" alt="Default Image">
+                        <a href="#">
+                            <div class="card h-100">
+                                <div class="imageBox card-image skeleton">
+                                    <div class="imageInn" style="border-radius: 6px;">
+                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/singapore_thumbnail.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
+                                    </div>
+                                    <div class="hoverImg" style="border-radius: 6px;">
+                                        <picture>
+                                            <!-- WebP version (if supported) -->
+                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/singapore_hoverImg.webp" type="image/webp">
+                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
+                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/singapore_thumbnail.jpg?raw=true" type="image/jpg">
+                                            <!-- Fallback <img> for older browsers (backup)-->
+                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/singapore_thumbnail.jpg?raw=true" alt="Hover Image">
+                                        </picture>
+                                    </div>
                                 </div>
-                                <div class="hoverImg" style="border-radius: 6px;">
-                                    <picture>
-                                        <!-- WebP version (if supported) -->
-                                        <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/latenight_hoverImg.webp" type="image/webp">
-                                        <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                        <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/singapore_thumbnail.jpg?raw=true" type="image/jpg">
-                                        <!-- Fallback <img> for older browsers (backup)-->
-                                        <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/singapore_thumbnail.jpg?raw=true" alt="Hover Image">
-                                    </picture>
+                                <div class="card-body">
+                                    <h6 class="card-title text-white skeleton">How Singapore Got So Crazy Rich</h6>
+                                    <p class="card-description text-white-50 skeleton">May 11, 2024</p>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h6 class="card-title">Late nights: Bad for health? BBC News Review</h6>
-                                <p class="date">Sep 21, 20225</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-                        <div class="card h-100">
-                            <div class="imageBox">
-                                <div class="imageInn" style="border-radius: 6px;">
-                                    <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/deepseek_thumbnail.jpg?raw=true" alt="Default Image">
+                        <a href="#">
+                            <div class="card h-100">
+                                <div class="imageBox card-image skeleton">
+                                    <div class="imageInn" style="border-radius: 6px;">
+                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/deepseek_thumbnail.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
+                                    </div>
+                                    <div class="hoverImg" style="border-radius: 6px;">
+                                        <picture>
+                                            <!-- WebP version (if supported) -->
+                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/deepseek_hoverImg.webp" type="image/webp">
+                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
+                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/deepseek_thumbnail.jpg?raw=true" type="image/jpg">
+                                            <!-- Fallback <img> for older browsers (backup)-->
+                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/deepseek_thumbnail.jpg?raw=true" alt="Hover Image">
+                                        </picture>
+                                    </div>
                                 </div>
-                                <div class="hoverImg" style="border-radius: 6px;">
-                                    <picture>
-                                        <!-- WebP version (if supported) -->
-                                        <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/latenight_hoverImg.webp" type="image/webp">
-                                        <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                        <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/deepseek_thumbnail.jpg?raw=true" type="image/jpg">
-                                        <!-- Fallback <img> for older browsers (backup)-->
-                                        <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/deepseek_thumbnail.jpg?raw=true" alt="Hover Image">
-                                    </picture>
+                                <div class="card-body">
+                                    <h6 class="card-title text-white skeleton">DeepSeek, TikTok, Temu: How China is taking the lead in tech - BBC World Service</h6>
+                                    <p class="card-description text-white-50 skeleton">Feb 7, 2025</p>
                                 </div>
                             </div>
-                            <div class="card-body">
-                                <h6 class="card-title">Late nights: Bad for health? BBC News Review</h6>
-                                <p class="date">Sep 21, 20225</p>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+                        <a href="#">
+                            <div class="card h-100">
+                                <div class="imageBox card-image skeleton">
+                                    <div class="imageInn" style="border-radius: 6px;">
+                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/routine_thumbnail.jpg?raw=true" alt="Thumbnail"  style="opacity: 0; height: 0;">
+                                    </div>
+                                    <div class="hoverImg" style="border-radius: 6px;">
+                                        <picture>
+                                            <!-- WebP version (if supported) -->
+                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/routine_hoverImg.webp" type="image/webp">
+                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
+                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/routine_thumbnail.jpg?raw=true" type="image/jpg">
+                                            <!-- Fallback <img> for older browsers (backup)-->
+                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/routine_thumbnail.jpg?raw=true" alt="Hover Image">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h6 class="card-title text-white skeleton">How a 10-Minute Morning Routine Can Change Your Entire Day | TED Talk Daily</h6>
+                                    <p class="card-description text-white-50 skeleton">Mar 10, 2025</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 </body>
 </html>
