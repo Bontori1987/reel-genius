@@ -55,9 +55,6 @@ To test the project and ensure that everything is working correctly, follow thes
 2. **Test Image and Video Playback:**
    Open the `index.html` file in your web browser and verify that the images and videos load and play correctly.
 
-3. **Check Browser Compatibility:**
-   Test the website on different web browsers (e.g., Chrome, Firefox, Safari) to ensure compatibility.
-
 ## Contributing
 
 Since this is a school project, we will most likely not update anything in this project after the deadline date. If you want to contribute to the project, simply follow the instructions below!
