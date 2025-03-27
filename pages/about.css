@@ -2,6 +2,36 @@
     box-sizing: border-box;
 }
 
+.navbar {
+    padding: 0;
+}
+
+.nav-item {
+    width: 105px;
+}
+
+.logo {
+    margin-left: 15px;
+    height: 80px;
+    width: 80px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 0;
+}
+
+.search-container {
+    margin: auto;
+}
+
+.input-group-text:hover {
+    background-color: rgb(25, 146, 25);
+    cursor: pointer;
+}
+
 body {
     background: radial-gradient(circle at center, #31265f, #2b5693, #0f3484, #000);
     background-attachment: fixed;
