@@ -21,13 +21,11 @@
     <script src="https://kit.fontawesome.com/d717a59f45.js" crossorigin="anonymous"></script>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/reel-genius/project.css">
-    <link rel="stylesheet" href="/reel-genius/home.css">
-    <link rel="stylesheet" href="/reel-genius/skeleton.css">
+    <link rel="stylesheet" href="images.css">
+    <link rel="stylesheet" href="skeleton.css">
 
     <!-- JavaScript -->
-    <script src="function.js"></script>
-    <script src="project.js" defer></script>
+    <script src="images.js" defer></script>
     <script src="skeleton.js"></script>
 
 </head>
@@ -40,50 +38,9 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <a class="navbar-brand" href="/reel-genius/index.html">
-                    <img src="/reel-genius/logo-removebg.png" class="logo"> Reel Genius 
+                <a class="navbar-brand" href="/index.html">
+                    <img src="https://github.com/Bontori1987/reel-genius/blob/main/logo-removebg.png?raw=true" class="logo"> Reel Genius 
                 </a>
-
-                <!--Searching contents...-->
-                <div class="search">
-                    <form class="form-inline" id="searchForm">
-                        <div class="input-group">
-                            <input type="search" id="searchInput" placeholder="Search..." class="form-control" size="40">
-                            <div class="input-group-append">
-                                <button type="button" id="searchButton" class="btn btn-success">
-                                    <i class="fa-solid fa-magnifying-glass"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            
-            <!--Menu-->
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/reel-genius/index.html"><i class="fa-solid fa-house"></i> Home<span class="sr-only">(current)</span></a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="videos.html"><i class="fa-solid fa-video"></i> Videos <span class="sr-only">(current)</span></a>
-                    </li>
-
-                    <li class="nav-item">
-                         <a class="nav-link" href="images.html"><i class="fa-solid fa-image"></i> Images <span class="sr-only">(current)</span></a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <!-- <a class="nav-link" href="/reel-genius/about" onclick="route(event)"><i class="fa-solid fa-address-card"></i> About Us</a> -->
-                        <a class="nav-link" href="about.html"><i class="fa-solid fa-address-card"></i> About us<span class="sr-only">(current)</span></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-        <div id="main-page"> </div>
-    </div>
 
                 <!--Searching contents...-->
                 <div class="search">
@@ -161,22 +118,20 @@
             <!-- Card Section -->
             <div class="col-md-10 col-lg-10">
                 <div class="row row-items">
-                    <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
                         <a href="#">
                             <div class="card h-100">
                                 <div class="imageBox card-image skeleton">
                                     <div class="imageInn" style="border-radius: 6px;">
-                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/1.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
+                                        <img class="image" data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/1.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
                                     </div>
-                                    <div class="hoverImg" style="border-radius: 6px;">
-                                        <picture>
-                                            <!-- WebP version (if supported) -->
-                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/latenight_hoverImg.webp" type="image/webp">
-                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/latenight_thumbnail.jpg?raw=true" type="image/jpg">
-                                            <!-- Fallback <img> for older browsers (backup)-->
-                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/latenight_thumbnail.jpg?raw=true" alt="Hover Image">
-                                        </picture>
+                                    <div id="myModal" class="modal">
+                                        <!-- The Close Button -->
+                                        <span class="close">&times;</span>                                   
+                                        <!-- Modal Content (The Image) -->
+                                        <img class="modal-content" id="img01">                                      
+                                        <!-- Modal Caption (Image Text) -->
+                                        <div id="caption"></div>
                                     </div>
                                 </div>
                             </div>
@@ -188,17 +143,7 @@
                             <div class="card h-100">
                                 <div class="imageBox card-image skeleton">
                                     <div class="imageInn" style="border-radius: 6px;">
-                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/2.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
-                                    </div>
-                                    <div class="hoverImg" style="border-radius: 6px;">
-                                        <picture>
-                                            <!-- WebP version (if supported) -->
-                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/positive_hoverImg.webp" type="image/webp">
-                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/positive_thumbnail.jpg?raw=true" type="image/jpg">
-                                            <!-- Fallback <img> for older browsers (backup)-->
-                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/positive_thumbnail.jpg?raw=true" alt="Hover Image">
-                                        </picture>
+                                        <img class="image" data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/2.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
                                     </div>
                                 </div>
                             </div>
@@ -210,17 +155,7 @@
                             <div class="card h-100">
                                 <div class="imageBox card-image skeleton">
                                     <div class="imageInn" style="border-radius: 6px;">
-                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/3.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
-                                    </div>
-                                    <div class="hoverImg" style="border-radius: 6px;">
-                                        <picture>
-                                            <!-- WebP version (if supported) -->
-                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/conan_hoverImg.webp" type="image/webp">
-                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/conan_thumbnail.jpg?raw=true" type="image/jpg">
-                                            <!-- Fallback <img> for older browsers (backup)-->
-                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/conan_thumbnail.jpg?raw=true" alt="Hover Image">
-                                        </picture>
+                                        <img class="image" data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/3.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
                                     </div>
                                 </div>
                             </div>
@@ -232,17 +167,7 @@
                             <div class="card h-100">
                                 <div class="imageBox card-image skeleton">
                                     <div class="imageInn" style="border-radius: 6px;">
-                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/4.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
-                                    </div>
-                                    <div class="hoverImg" style="border-radius: 6px;">
-                                        <picture>
-                                            <!-- WebP version (if supported) -->
-                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/greatestairplane_hoverImg.webp" type="image/webp">
-                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/greatestairplane_thumbnail.jpg?raw=true" type="image/jpg">
-                                            <!-- Fallback <img> for older browsers (backup)-->
-                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/greatestairplane_thumbnail.jpg?raw=true" alt="Hover Image">
-                                        </picture>
+                                        <img class="image" data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/4.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
                                     </div>
                                 </div>
                             </div>
@@ -254,17 +179,7 @@
                             <div class="card h-100">
                                 <div class="imageBox card-image skeleton">
                                     <div class="imageInn" style="border-radius: 6px;">
-                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/5.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
-                                    </div>
-                                    <div class="hoverImg" style="border-radius: 6px;">
-                                        <picture>
-                                            <!-- WebP version (if supported) -->
-                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/food_hoverImg.webp" type="image/webp">
-                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/food_thumbnail.jpg?raw=true" type="image/jpg">
-                                            <!-- Fallback <img> for older browsers (backup)-->
-                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/food_thumbnail.jpg?raw=true" alt="Hover Image">
-                                        </picture>
+                                        <img class="image" data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/5.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
                                     </div>
                                 </div>
                             </div>
@@ -276,17 +191,7 @@
                             <div class="card h-100">
                                 <div class="imageBox card-image skeleton">
                                     <div class="imageInn" style="border-radius: 6px;">
-                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/6.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
-                                    </div>
-                                    <div class="hoverImg" style="border-radius: 6px;">
-                                        <picture>
-                                            <!-- WebP version (if supported) -->
-                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/taylorswift_hoverImg.webp" type="image/webp">
-                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/taylorswift_thumbnail.jpg?raw=true" type="image/jpg">
-                                            <!-- Fallback <img> for older browsers (backup)-->
-                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/taylorswift_thumbnail.jpg?raw=true" alt="Hover Image">
-                                        </picture>
+                                        <img class="image" data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/6.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
                                     </div>
                                 </div>
                             </div>
@@ -298,17 +203,7 @@
                             <div class="card h-100">
                                 <div class="imageBox card-image skeleton">
                                     <div class="imageInn" style="border-radius: 6px;">
-                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/7.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
-                                    </div>
-                                    <div class="hoverImg" style="border-radius: 6px;">
-                                        <picture>
-                                            <!-- WebP version (if supported) -->
-                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/namecountry_hoverImg.webp" type="image/webp">
-                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/namecountry_thumbnail.jpg?raw=true" type="image/jpg">
-                                            <!-- Fallback <img> for older browsers (backup)-->
-                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/namecountry_thumbnail.jpg?raw=true" alt="Hover Image">
-                                        </picture>
+                                        <img class="image" data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/7.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
                                     </div>
                                 </div>
                             </div>
@@ -320,17 +215,7 @@
                             <div class="card h-100">
                                 <div class="imageBox card-image skeleton">
                                     <div class="imageInn" style="border-radius: 6px;">
-                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/8.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
-                                    </div>
-                                    <div class="hoverImg" style="border-radius: 6px;">
-                                        <picture>
-                                            <!-- WebP version (if supported) -->
-                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/guess_hoverImg.webp" type="image/webp">
-                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/guess_thumbnail.jpg?raw=true" type="image/jpg">
-                                            <!-- Fallback <img> for older browsers (backup)-->
-                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/guess_thumbnail.jpg?raw=true" alt="Hover Image">
-                                        </picture>
+                                        <img class="image" data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/8.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
                                     </div>
                                 </div>
                             </div>
@@ -342,17 +227,7 @@
                             <div class="card h-100">
                                 <div class="imageBox card-image skeleton">
                                     <div class="imageInn" style="border-radius: 6px;">
-                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/9.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
-                                    </div>
-                                    <div class="hoverImg" style="border-radius: 6px;">
-                                        <picture>
-                                            <!-- WebP version (if supported) -->
-                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/rainbowbunny_hoverImg.webp" type="image/webp">
-                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/rainbowbunny_thumbnail.jpg?raw=true" type="image/jpg">
-                                            <!-- Fallback <img> for older browsers (backup)-->
-                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/rainbowbunny_thumbnail.jpg?raw=true" alt="Hover Image">
-                                        </picture>
+                                        <img class="image" data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/9.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
                                     </div>
                                 </div>
                             </div>
@@ -364,17 +239,7 @@
                             <div class="card h-100">
                                 <div class="imageBox card-image skeleton">
                                     <div class="imageInn" style="border-radius: 6px;">
-                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/10.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
-                                    </div>
-                                    <div class="hoverImg" style="border-radius: 6px;">
-                                        <picture>
-                                            <!-- WebP version (if supported) -->
-                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/rainbowbunny_hoverImg.webp" type="image/webp">
-                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/rainbowbunny_thumbnail.jpg?raw=true" type="image/jpg">
-                                            <!-- Fallback <img> for older browsers (backup)-->
-                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/rainbowbunny_thumbnail.jpg?raw=true" alt="Hover Image">
-                                        </picture>
+                                        <img class="image" data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/10.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
                                     </div>
                                 </div>
                             </div>
@@ -386,17 +251,7 @@
                             <div class="card h-100">
                                 <div class="imageBox card-image skeleton">
                                     <div class="imageInn" style="border-radius: 6px;">
-                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/11.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
-                                    </div>
-                                    <div class="hoverImg" style="border-radius: 6px;">
-                                        <picture>
-                                            <!-- WebP version (if supported) -->
-                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/rainbowbunny_hoverImg.webp" type="image/webp">
-                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/rainbowbunny_thumbnail.jpg?raw=true" type="image/jpg">
-                                            <!-- Fallback <img> for older browsers (backup)-->
-                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/rainbowbunny_thumbnail.jpg?raw=true" alt="Hover Image">
-                                        </picture>
+                                        <img class="image" data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/11.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
                                     </div>
                                 </div>
                             </div>
@@ -408,17 +263,7 @@
                             <div class="card h-100">
                                 <div class="imageBox card-image skeleton">
                                     <div class="imageInn" style="border-radius: 6px;">
-                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/12.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
-                                    </div>
-                                    <div class="hoverImg" style="border-radius: 6px;">
-                                        <picture>
-                                            <!-- WebP version (if supported) -->
-                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/rainbowbunny_hoverImg.webp" type="image/webp">
-                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/rainbowbunny_thumbnail.jpg?raw=true" type="image/jpg">
-                                            <!-- Fallback <img> for older browsers (backup)-->
-                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/rainbowbunny_thumbnail.jpg?raw=true" alt="Hover Image">
-                                        </picture>
+                                        <img class="image" data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/12.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
                                     </div>
                                 </div>
                             </div>
@@ -430,17 +275,7 @@
                             <div class="card h-100">
                                 <div class="imageBox card-image skeleton">
                                     <div class="imageInn" style="border-radius: 6px;">
-                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/13.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
-                                    </div>
-                                    <div class="hoverImg" style="border-radius: 6px;">
-                                        <picture>
-                                            <!-- WebP version (if supported) -->
-                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/rainbowbunny_hoverImg.webp" type="image/webp">
-                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/rainbowbunny_thumbnail.jpg?raw=true" type="image/jpg">
-                                            <!-- Fallback <img> for older browsers (backup)-->
-                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/rainbowbunny_thumbnail.jpg?raw=true" alt="Hover Image">
-                                        </picture>
+                                        <img class="image" data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/13.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
                                     </div>
                                 </div>
                             </div>
@@ -452,17 +287,7 @@
                             <div class="card h-100">
                                 <div class="imageBox card-image skeleton">
                                     <div class="imageInn" style="border-radius: 6px;">
-                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/14.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
-                                    </div>
-                                    <div class="hoverImg" style="border-radius: 6px;">
-                                        <picture>
-                                            <!-- WebP version (if supported) -->
-                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/trump_hoverImg.webp" type="image/webp">
-                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/trump_thumbnail.jpg?raw=true" type="image/jpg">
-                                            <!-- Fallback <img> for older browsers (backup)-->
-                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/trump_thumbnail.jpg?raw=true" alt="Hover Image">
-                                        </picture>
+                                        <img class="image" data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/14.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
                                     </div>
                                 </div>
                             </div>
@@ -474,17 +299,7 @@
                             <div class="card h-100">
                                 <div class="imageBox card-image skeleton">
                                     <div class="imageInn" style="border-radius: 6px;">
-                                        <img data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/15.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
-                                    </div>
-                                    <div class="hoverImg" style="border-radius: 6px;">
-                                        <picture>
-                                            <!-- WebP version (if supported) -->
-                                            <source srcset="https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/trump_hoverImg.webp" type="image/webp">
-                                            <!-- JPEG/PNG fallback (if WebP is not supported)-->
-                                            <source srcset="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/trump_thumbnail.jpg?raw=true" type="image/jpg">
-                                            <!-- Fallback <img> for older browsers (backup)-->
-                                            <img src="https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/trump_thumbnail.jpg?raw=true" alt="Hover Image">
-                                        </picture>
+                                        <img class="image" data-src="https://github.com/Bontori1987/reel-genius/blob/main/randomImages/15.jpg?raw=true" alt="Thumbnail" style="opacity: 0; height: 0;">
                                     </div>
                                 </div>
                             </div>
