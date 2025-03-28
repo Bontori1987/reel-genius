@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
-  // Simulate loading delay
+  //simulate loading delay
   setTimeout(function() {
-      // Remove skeleton classes
+      //remove skeleton classes when the time's over
       const skeletons = document.querySelectorAll('.skeleton');
       skeletons.forEach(skeleton => {
           skeleton.classList.remove('skeleton');
           
-          // Restore original text color
+          //restore original text color
           if(skeleton.classList.contains('text-white')) {
               skeleton.style.color = '#fff';
           }
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
           }
       });
 
-      // Load images after skeleton removal
+      //loading images
       const lazyImages = document.querySelectorAll('img');
       lazyImages.forEach(img => {
           if(img.dataset.src) {
@@ -24,5 +24,5 @@ document.addEventListener('DOMContentLoaded', function() {
               img.style.height = 'auto';
           }
       });
-  }, 2000); // Simulated 2 second loading time
+  }, 2000); //simulated 2 second loading time
 });
