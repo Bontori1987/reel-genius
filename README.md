@@ -21,6 +21,7 @@ The GitHub repository for this project can be found [here](https://github.com/Bo
 - JavaScript
 - [Bootstrap](https://getbootstrap.com/)
 - [jQuery](https://jquery.com/)
+- JSON
 
 ## Installation
 
