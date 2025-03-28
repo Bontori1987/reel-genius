@@ -1,4 +1,4 @@
-/* Skeleton Loading Animation */
+/* skeleton animation */
 @keyframes shimmer {
     0% { background-position: -1000px 0; }
     100% { background-position: 1000px 0; }
@@ -9,7 +9,7 @@
     overflow: hidden;
     background-color: #3a3a3a !important;
     border-radius: 4px;
-    color: transparent !important; /* Hide text content */
+    color: transparent !important;
 }
 
 .skeleton::after {
@@ -28,14 +28,14 @@
     animation: shimmer 1.5s infinite;
 }
 
-/* Image Skeleton */
+/* skeleton image*/
 .skeleton.card-image {
     background-color: #2d2d2d;
     height: 0;
     padding-top: 100%; /* 1:1 aspect ratio */
 }
 
-/* Hide original images during loading */
+/* hide original images during loading */
 .skeleton img {
     opacity: 0;
     height: 0;
