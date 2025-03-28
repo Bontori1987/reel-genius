@@ -1,5 +1,4 @@
-// script.js
-fetch('cards.json') // Corrected path to cards.json
+fetch('cards.json')
     .then(response => response.json())
     .then(cards => {
         const dynamicContent = document.getElementById('dynamicContent');
