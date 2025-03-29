@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 
     <!-- jQuery library -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
     <!-- Popper JS -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
@@ -22,14 +22,14 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/project.css">
-    <link rel="stylesheet" href="/home.css">
-    <link rel="stylesheet" href="playVideo.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="/pages/playVideo.css">
 
     <!-- JavaScript -->
-    <script src="/function.js"></script>
     <script src="/project.js" defer></script>
-    <script src="playVideo.js" defer></script>
-
+    <script src="/skeleton.js"></script>
+    <script src="/pages/playVideo.js"></script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,7 +37,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Bytesized&family=Limelight&family=Megrim&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!--Header (navbar)-->
     <div class="container-fluid"> 
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-0">
             <div class="d-flex align-items-center w-100">
@@ -45,8 +44,8 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <a class="navbar-brand" href="/reel-genius/index.html">
-                    <img src="https://github.com/Bontori1987/reel-genius/blob/main/logo-removebg.png?raw=true" class="logo"> Reel Genius 
+                <a class="navbar-brand" href="/index.html">
+                    <img src="/projectImages/logo-removebg.png" class="logo"> Reel Genius 
                 </a>
 
                 <!--Searching contents...-->
@@ -67,88 +66,154 @@
             <!--Menu-->
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/reel-genius/index.html"><i class="fa-solid fa-house"></i> Home<span class="sr-only">(current)</span></a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i> Home<span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item">
-                         <a class="nav-link" href="/reel-genius/images/images.html"><i class="fa-solid fa-image"></i> Images <span class="sr-only">(current)</span></a>
+                         <a class="nav-link" href="/pages/images.html"><i class="fa-solid fa-image"></i> Images <span class="sr-only">(current)</span></a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="/reel-genius/about/about.html"><i class="fa-solid fa-address-card"></i> About us<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/pages/about.html"><i class="fa-solid fa-address-card"></i> About us<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
 
-    <div class="container-fluid play-container">
+    <div class="container-fluid main-container">
         <div class="row">
             <div class="col-lg-9 col-md-8 col-12">
                 <div class="play-video">
-                    <video id="videoPlayer" controls autoplay>
+                    <video id="videoPlayer" controls>
                         <source id="videoSource" src="" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
 
-                <div class="title">
-                    <p class="innerTitle"> 
-                        
-                    </p>
+                <div> 
+                    <h2 class="videoTitle"> </h2>
+
+                    <div class="capSection"> 
+                        <p class="videoTags"> </p>
+                        <p class="videoCaption"> </p>
+                    </div>
+                    
+                    <div class="channel-infor form-inline"> 
+                        <img src="" class="channelImg">
+                        <p class="authorVideo" style="border-radius: 50px;"> </p>
+                    </div>
+
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-4 col-12"> 
                 <div class="right-sidebar container-fluid">
                     <div class="side-video-list">
-                        <a href="" class="smallThumbnail"><img src="/thumbnail/conan_thumbnail.jpg" class="img-fluid" alt=""></a>
+                        <a href="./playVideo.html?videoSrc=../projectVideos/kimJongUn.mp4" class="smallThumbnail"><img src="/thumbnail/kimjongun_thumbnail.jpg" alt=""></a>
                         <div class="video-infor">
-                            <a href=""> Best video demo from Mai Van Manh</a>
-                            <p> Easy Tutorial</p>
+                            <a href="./playVideo.html?videoSrc=../projectVideos/kimJongUn.mp4">How Kim Jong Un Travels</a>
+                            <p> fern </p>
+                            <p> 3.8 million views 1 year ago </p>
+                        </div>
+                    </div>
+
+                    <div class="side-video-list longName-video">
+                        <a href="./playVideo.html?videoSrc=../projectVideos/deepSeek.mp4" class="smallThumbnail"><img src="/thumbnail/deepseek_thumbnail.jpg" alt=""></a>
+                        <div class="video-infor">
+                            <a href="./playVideo.html?videoSrc=../projectVideos/deepSeek.mp4">DeepSeek, TikTok, Temu: How China is taking the lead in tech - BBC World Service</a>
+                            <p>1.7 Million views 1 month ago</p>
                         </div>
                     </div>
 
                     <div class="side-video-list">
-                        <a href="" class="smallThumbnail"><img src="/thumbnail/deepseek_thumbnail.jpg" alt=""></a>
+                        <a href="./playVideo.html?videoSrc=../projectVideos/greatestAirplane.mp4" class="smallThumbnail"><img src="/thumbnail/greatestairplane_thumbnail.jpg" alt=""></a>
                         <div class="video-infor">
-                            <a href=""> Best video demo from Mai Van Manh</a>
-                            <p> Easy Tutorial</p>
+                            <a href="./playVideo.html?videoSrc=../projectVideos/greatestAirplane.mp4">ALL TIME GREATEST AIRPLANE SEAT - Emirates First Class Suite</a>
+                            <p> 55 Million views 7 years ago</p>
                         </div>
                     </div>
 
                     <div class="side-video-list">
-                        <a href="" class="smallThumbnail"><img src="/thumbnail/greatestairplane_thumbnail.jpg" alt=""></a>
+                        <a href="/pages/playVideo.html?videoSrc=../projectVideos/worldLargestCruise.mp4" class="smallThumbnail"><img src="/thumbnail/largestcruise_thumbnail.jpg" alt=""></a>
                         <div class="video-infor">
-                            <a href=""> Best video demo from Mai Van Manh</a>
-                            <p> Easy Tutorial</p>
+                            <a href="/pages/playVideo.html?videoSrc=../projectVideos/worldLargestCruise.mp4">How The World's Largest Cruise Ship Makes 30,000 Meals Every Day</a>
+                            <p>21 Million views 5 years ago</p>
                         </div>
                     </div>
 
                     <div class="side-video-list">
-                        <a href="" class="smallThumbnail"><img src="/thumbnail/food_thumbnail.jpg" alt=""></a>
+                        <a href="/pages/playVideo.html?videoSrc=../projectVideos/lateNights.mp4" class="smallThumbnail"><img src="/thumbnail/latenight_thumbnail.jpg" alt=""></a>
                         <div class="video-infor">
-                            <a href=""> Best video demo from Mai Van Manh</a>
-                            <p> Easy Tutorial</p>
+                            <a href="/pages/playVideo.html?videoSrc=../projectVideos/lateNights.mp4">Late nights: Bad for health? BBC News Review</a>
+                            <p>2.2 Million views 2 years ago</p>
                         </div>
                     </div>
 
                     <div class="side-video-list">
-                        <a href="" class="smallThumbnail"><img src="/thumbnail/latenight_thumbnail.jpg" alt=""></a>
+                        <a href="/pages/playVideo.html?videoSrc=../projectVideos/nukesTransport.mp4" class="smallThumbnail"><img src="/thumbnail/nukes_thumbnail.jpg" alt=""></a>
                         <div class="video-infor">
-                            <a href=""> Best video demo from Mai Van Manh</a>
-                            <p> Easy Tutorial</p>
+                            <a href="/pages/playVideo.html?videoSrc=../projectVideos/nukesTransport.mp4">How Nukes Are Transported</a>
+                            <p>2.4 Million views 1 year ago</p>
                         </div>
                     </div>
 
                     <div class="side-video-list">
-                        <a href="" class="smallThumbnail"><img src="/thumbnail/nukes_thumbnail.jpg" alt=""></a>
+                        <a href="/pages/playVideo.html?videoSrc=../projectVideos/nameACountry.mp4" class="smallThumbnail"><img src="/thumbnail/namecountry_thumbnail.jpg" alt=""></a>
                         <div class="video-infor">
-                            <a href=""> Best video demo from Mai Van Manh</a>
-                            <p> Easy Tutorial</p>
+                            <a href="/pages/playVideo.html?videoSrc=../projectVideos/nameACountry.mp4">Can You Name a Country?</a>
+                            <p>32 Million views 6 years ago</p>
                         </div>
                     </div>
+
+                    <div class="side-video-list">
+                        <a href="/pages/playVideo.html?videoSrc=../projectVideos/rollsRoyce.mp4" class="smallThumbnail"><img src="/thumbnail/rollsroyce_thumbnail.jpg" alt=""></a>
+                        <div class="video-infor">
+                            <a href="/pages/playVideo.html?videoSrc=../projectVideos/rollsRoyce.mp4">Why Rolls-Royce Cars Are So Expensive | So Expensive</a>
+                            <p>23 Million views 4 year ago</p>
+                        </div>
+                    </div>
+
+                    <div class="side-video-list">
+                        <a href="/pages/playVideo.html?videoSrc=../projectVideos/singaporeRich.mp4" class="smallThumbnail"><img src="/thumbnail/singapore_thumbnail.jpg" alt=""></a>
+                        <div class="video-infor">
+                            <a href="/pages/playVideo.html?videoSrc=../projectVideos/singaporeRich.mp4">How Singapore Got So Crazy Rich</a>
+                            <p>2.8 Million views 10 months ago</p>
+                        </div>
+                    </div>
+
+                    <div class="side-video-list">
+                        <a href="/pages/playVideo.html?videoSrc=../projectVideos/streamingWars.mp4" class="smallThumbnail"><img src="/thumbnail/streamingwar_thumbnail.jpg" alt=""></a>
+                        <div class="video-infor">
+                            <a href="/pages/playVideo.html?videoSrc=../projectVideos/streamingWars.mp4">The Streaming Wars</a>
+                            <p>185N views 9 days ago</p>
+                        </div>
+                    </div>
+                    
+                    <div class="side-video-list">
+                        <a href="/pages/playVideo.html?videoSrc=../projectVideos/taylorSwift.mp4" class="smallThumbnail"><img src="/thumbnail/taylorswift_thumbnail.jpg" alt=""></a>
+                        <div class="video-infor">
+                            <a href="/pages/playVideo.html?videoSrc=../projectVideos/taylorSwift.mp4">Taylor Swift Reacts to Embarrassing Footage of Herself After Laser Eye Surgery</a>
+                            <p>23 million views 5 years ago</p>
+                        </div>
+                    </div>  
+
+                    <div class="side-video-list">
+                        <a href="/pages/playVideo.html?videoSrc=../projectVideos/americanAndEuropean.mp4" class="smallThumbnail"><img src="/thumbnail/trucks_thumbnail.jpg" alt=""></a>
+                        <div class="video-infor">
+                            <a href="/pages/playVideo.html?videoSrc=../projectVideos/americanAndEuropean.mp4">Why American and European Trucks Are So Different</a>
+                            <p>9.5 million views 2 years ago</p>
+                        </div>
+                    </div> 
+
+                    <div class="side-video-list">
+                        <a href="/pages/playVideo.html?videoSrc=../projectVideos/trumpVideo.mp4" class="smallThumbnail"><img src="/thumbnail/trump_thumbnail.jpg" alt=""></a>
+                        <div class="video-infor">
+                            <a href="/pages/playVideo.html?videoSrc=../projectVideos/trumpVideo.mp4">Trump's Trade War Created This Boomtown in Vietnam. Now Tariffs Could Topple It. | WSJ Center Point</a>
+                            <p>736N views 2 weeks ago</p>
+                        </div>
+                    </div> 
                 </div>
             </div>
         </div>
