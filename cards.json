@@ -4,104 +4,105 @@
         "hoverWebp": "https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/latenight_hoverImg.webp",
         "title": "Late nights: Bad for health? BBC News Review",
         "date": "Sep 21, 2022",
-        "link": "#"
+        "link": "/pages/playVideo.html?videoSrc=../projectVideos/lateNights.mp4"
     },
+
     {
         "thumbnail": "https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/positive_thumbnail.jpg?raw=true",
         "hoverWebp": "https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/positive_hoverImg.webp",
         "title": "How to find hope - BBC Dars, BBC World Service",
         "date": "Feb 23, 2025",
-        "link": "#"
+        "link": "/pages/playVideo.html?videoSrc=../projectVideos/findHope.mp4"
     },
     {
         "thumbnail": "https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/trump_thumbnail.jpg?raw=true",
         "hoverWebp": "https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/trump_hoverImg.webp",
         "title": "Trump's Trade War Created This Boomtown in Vietnam. Now Tariffs Could Topple It. | WSJ Center Point",
         "date": "Mar 13, 2025",
-        "link": "#"
+        "link": "/pages/playVideo.html?videoSrc=../projectVideos/trumpVideo.mp4"
     },
     {
         "thumbnail": "https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/greatestairplane_thumbnail.jpg?raw=true",
         "hoverWebp": "https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/greatestairplane_hoverImg.webp",
         "title": "ALL TIME GREATEST AIRPLANE SEAT - Emirates First Class Suite",
         "date": "Dec 12, 2017",
-        "link": "#"
+        "link": "/pages/playVideo.html?videoSrc=../projectVideos/greatestAirplane.mp4"
     },
     {
         "thumbnail": "https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/largestcruise_thumbnail.jpg?raw=true",
         "hoverWebp": "https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/largestcruise_hoverImg.webp",
         "title": "How The World's Largest Cruise Ship Makes 30,000 Meals Every Day",
         "date": "Jan 18, 2020",
-        "link": "#"
+        "link": "/pages/playVideo.html?videoSrc=../projectVideos/worldLargestCruise.mp4"
     },
     {
         "thumbnail": "https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/taylorswift_thumbnail.jpg?raw=true",
         "hoverWebp": "https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/taylorswift_hoverImg.webp",
         "title": "Taylor Swift Reacts to Embarrassing Footage of Herself After Laser Eye Surgery",
         "date": "Oct 4, 2019",
-        "link": "#"
+        "link": "/pages/playVideo.html?videoSrc=../projectVideos/taylorSwift.mp4"
     },
     {
         "thumbnail": "https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/namecountry_thumbnail.jpg?raw=true",
         "hoverWebp": "https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/namecountry_hoverImg.webp",
         "title": "Can You Name a Country?",
         "date": "Jul 13, 2018",
-        "link": "#"
+        "link": "/pages/playVideo.html?videoSrc=../projectVideos/nameACountry.mp4"
     },
     {
         "thumbnail": "https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/kimjongun_thumbnail.jpg?raw=true",
         "hoverWebp": "https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/kimjongun_hoverImg.webp",
         "title": "How the US PresHow Kim Jong Un Travelsident Travels",
         "date": "Dec 29, 2023",
-        "link": "#"
+        "link": "/pages/playVideo.html?videoSrc=../projectVideos/kimJongUn.mp4"
     },
     {
         "thumbnail": "https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/streamingwar_thumbnail.jpg?raw=true",
         "hoverWebp": "https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/streamingwar_hoverImg.webp",
         "title": "The Streaming Wars",
         "date": "Mar 20, 2025",
-        "link": "#"
+        "link": "/pages/playVideo.html?videoSrc=../projectVideos/streamingWars.mp4"
     },
     {
         "thumbnail": "https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/nukes_thumbnail.jpg?raw=true",
         "hoverWebp": "https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/nukes_hoverImg.webp",
         "title": "How Nukes Are Transported",
         "date": "Jan 21, 2024",
-        "link": "#"
+        "link": "/pages/playVideo.html?videoSrc=../projectVideos/nukesTransport.mp4"
     },
     {
         "thumbnail": "https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/trucks_thumbnail.jpg?raw=true",
         "hoverWebp": "https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/trucks_hoverImg.webp",
         "title": "Why American and European Trucks Are So Different",
         "date": "Oct 29, 2022",
-        "link": "#"
+        "link": "/pages/playVideo.html?videoSrc=../projectVideos/americanAndEuropean.mp4"
     },
     {
         "thumbnail": "https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/rollsroyce_thumbnail.jpg?raw=true",
         "hoverWebp": "https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/rollsroyce_hoverImg.webp",
         "title": "Why Rolls-Royce Cars Are So Expensive | So Expensive",
         "date": "Apr 25, 2020",
-        "link": "#"
+        "link": "/pages/playVideo.html?videoSrc=../projectVideos/rollsRoyce.mp4"
     },
     {
         "thumbnail": "https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/singapore_thumbnail.jpg?raw=true",
         "hoverWebp": "https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/singapore_hoverImg.webp",
         "title": "How Singapore Got So Crazy Rich",
         "date": "May 11, 2024",
-        "link": "#"
+        "link": "/pages/playVideo.html?videoSrc=../projectVideos/singaporeRich.mp4"
     },
     {
         "thumbnail": "https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/deepseek_thumbnail.jpg?raw=true",
         "hoverWebp": "https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/deepseek_hoverImg.webp",
         "title": "DeepSeek, TikTok, Temu: How China is taking the lead in tech - BBC World Service",
         "date": "Feb 7, 2025",
-        "link": "#"
+        "link": "/pages/playVideo.html?videoSrc=../projectVideos/deepSeek.mp4"
     },
     {
         "thumbnail": "https://github.com/Bontori1987/reel-genius/blob/main/thumbnail/routine_thumbnail.jpg?raw=true",
         "hoverWebp": "https://raw.githubusercontent.com/Bontori1987/reel-genius/refs/heads/main/hover_img_videos/routine_hoverImg.webp",
         "title": "How a 10-Minute Morning Routine Can Change Your Entire Day | TED Talk Daily",
         "date": "Mar 10, 2025",
-        "link": "#"
+        "link": "/pages/playVideo.html?videoSrc=../projectVideos/morningRoutineTED.mp4"
     }
 ]
