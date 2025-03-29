@@ -6,7 +6,7 @@ fetch('cards.json')
         cards.forEach(card => {
             const cardHtml = `
                 <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-                    <a href="${card.link || '#'}">
+                    <a href="/reel-genius${card.link || '#'}">
                         <div class="card h-100">
                             <div class="imageBox card-image skeleton">
                                 <div class="imageInn" style="border-radius: 6px;">
