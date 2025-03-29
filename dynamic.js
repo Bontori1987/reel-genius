@@ -6,7 +6,7 @@ fetch('cards.json')
         cards.forEach(card => {
             const cardHtml = `
                 <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-                    <a href="${card.link || '#'}">
+                    <a href="${card.link}">
                         <div class="card h-100">
                             <div class="imageBox card-image skeleton">
                                 <div class="imageInn" style="border-radius: 6px;">
@@ -21,7 +21,7 @@ fetch('cards.json')
                                 </div>
                             </div>
                             <div class="card-body">
-                                <h6 class="card-title text-white skeleton">${card.title}w</h6>
+                                <h6 class="card-title text-white skeleton">${card.title}</h6>
                                 <p class="card-description text-white-50 skeleton">${card.date}</p>
                             </div>
                         </div>
