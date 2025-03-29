@@ -3,9 +3,44 @@
     font-family: "Poppins", sans-serif;
 }
 
+/*Menu and Nav bar*/
+
+.navbar {
+    padding: 0;
+}
+
+.nav-item {
+    width: 105px;
+}
+
 body {
+    background-color: #3E3F5B;
     padding-top: 100px;
 }
+
+.logo {
+    margin-left: 15px;
+    height: 80px;
+    width: 80px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 0;
+}
+
+.search-container {
+    margin: auto;
+}
+
+.input-group-text:hover {
+    background-color: rgb(25, 146, 25);
+    cursor: pointer;
+}
+
+/*Menu and Nav bar*/
 
 .play-container {
     border: 1px solid red;
